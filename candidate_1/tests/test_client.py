@@ -184,7 +184,7 @@ def test_malformed_json_is_logged_and_treated_as_empty_page(caplog):
     responses.add(
         responses.GET,
         url,
-        body="{not valid json",
+        body="{invalid json",
         status=200,
         content_type="application/json",
     )
