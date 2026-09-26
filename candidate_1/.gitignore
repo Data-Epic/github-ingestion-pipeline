@@ -1,0 +1,16 @@
+# Ignore dataset files
+data/
+*.csv
+*.pkl
+*.xz
+*.zip
+# .gitattributes
+
+# Ignore environment variables
+.env
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
